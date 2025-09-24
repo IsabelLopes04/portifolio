@@ -1,89 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio – Isabel Lopes</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Isabel Lopes - Portfólio de Desenvolvedora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Isabel dos Santos Lopes</h1>
-    <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
-    <div class="contact">
-      <p>📧 isabel04lopes@gmail.com | 📱 (24) 99248-3522</p>
-    </div>
-  </header>
+    <header id="header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="#hero">Isabel Lopes</a>
+            </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
 
-  <section class="about">
-    <h2>Resumo Profissional</h2>
-    <p>
-      Trabalhei na área de atendimento e vendas e agora pretendo integrar o mercado de trabalho relacionado à área de TI, 
-      para me capacitar, aprimorar meus conhecimentos e posteriormente agregar à empresa.
-    </p>
-  </section>
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Olá, eu sou a<br><span>Isabel Lopes</span></h1>
+                    <p>Estudante de Análise e Desenvolvimento de Sistemas e aspirante a desenvolvedora full-stack.</p>
+                    <a href="#projetos" class="btn primary-btn">Ver meus projetos →</a>
+                </div>
+            </div>
+        </section>
 
-  <section class="education">
-    <h2>Formação Acadêmica</h2>
-    <ul>
-      <li><strong>2025 – 2027</strong> | Graduação Tecnológica em Análise e Desenvolvimento de Sistemas – IFSP Caraguatatuba</li>
-    </ul>
-  </section>
+        <section id="sobre" class="section">
+            <div class="container section-content">
+                <h2>Sobre Mim</h2>
+                <div class="about-flex">
+                    <p>
+                        Sou estudante de Análise e Desenvolvimento de Sistemas no IFSP Caraguatatuba. Tenho experiência em atendimento e gestão administrativa, mas meu objetivo é atuar na área de TI, aplicando meus conhecimentos em projetos inovadores e colaborativos.
+                    </p>
+                    <div class="academic-info">
+                        <h3>Formação Acadêmica</h3>
+                        <p><span>2025 — 2027</span><br>Tecnólogo em Análise e Desenvolvimento de Sistemas — IFSP Caraguatatuba</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <section class="experience">
-    <h2>Experiências</h2>
-    <ul>
-      <li>
-        <strong>Litoral Service LTDA</strong> (2019 – 2024)  
-        <br>Operador de caixa, atendente de perfumaria e balconista de medicamentos
-      </li>
-      <li>
-        <strong>Auto Posto Baia de Paraty LTDA</strong> (2024)  
-        <br>Auxiliar de escritório – Lançamento de notas fiscais, relatórios em planilha, gerenciamento de e-mail, organização de arquivos.
-      </li>
-    </ul>
-  </section>
+        <section id="projetos" class="section">
+            <div class="container section-content">
+                <h2>Projetos</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="img/caraguatour.png" alt="Projeto CaraguáTour" />
+                        <div class="project-info">
+                            <h3>CaraguáTour – Hackathon Turismo</h3>
+                            <p>Projeto desenvolvido durante o 1° hackathon do IFSP Caraguatatuba, com foco em soluções tecnológicas para o turismo local.</p>
+                            <div class="project-links">
+                                <a href="https://www.ifspcaraguatatuba.edu.br/noticias/ifsp-caraguatatuba-realiza-primeiro-hackathon-com-foco-em-solucoes-para-o-turismo-local" target="_blank" rel="noopener noreferrer">Notícia</a>
+                                <a href="https://www.figma.com/proto/mrEA46RxFyq1VzjV5M0d4M/Caragu%C3%A1Tour?node-id=332-321&t=wJwD84WnnkHAtsrb-1" target="_blank" rel="noopener noreferrer">Protótipo</a>
+                            </div>
+                        </div>
+                    </div>
 
-  <section class="skills">
-    <h2>Habilidades</h2>
-    <ul>
-      <li>Trabalho em equipe</li>
-      <li>Gestão de tempo</li>
-      <li>Organização e planejamento</li>
-      <li>Proatividade</li>
-      <li>Conhecimento de sistemas operacionais</li>
-    </ul>
-  </section>
+                    <div class="project-card">
+                        <img src="img/desktop.png" alt="Projeto 4UTravel Desktop" />
+                        <div class="project-info">
+                            <h3>4UTravel – Desktop</h3>
+                            <p>Protótipo de plataforma desktop voltada para turismo e viagens.</p>
+                            <div class="project-links">
+                                <a href="https://www.figma.com/proto/Niv47Uy4YcqAqJv761tXAf/4UTravel?node-id=660-666&t=Z1j3hKzxN8X8xeMZ-1" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+                            </div>
+                        </div>
+                    </div>
 
-  <section class="projects">
-    <h2>Projetos</h2>
-    <ul>
-      <li>
-        <strong>Reportagem IFSP Caraguatatuba</strong>  
-        <a href="https://www.ifspcaraguatatuba.edu.br/noticias/ifsp-caraguatatuba-realiza-primeiro-hackathon-com-foco-em-solucoes-para-o-turismo-local" target="_blank">
-          Ver reportagem
-        </a>
-      </li>
-      <li>
-        <strong>Caraguatatour</strong> (Equipe vencedora)  
-        <a href="https://www.figma.com/proto/mrEA46RxFyq1VzjV5M0d4M/Caragu%C3%A1Tour?node-id=332-321&t=wJwD84WnnkHAtsrb-1" target="_blank">
-          Ver protótipo
-        </a>
-      </li>
-      <li>
-        <strong>4Utravel</strong> – Projeto interno da faculdade (nota máxima do professor)  
-        <a href="https://www.figma.com/proto/Niv47Uy4YcqAqJv761tXAf/4UTravel?node-id=570-464&starting-point-node-id=570%3A464&t=JBS7J4azSRSHECSy-1" target="_blank">
-          Versão Mobile
-        </a> | 
-        <a href="https://www.figma.com/proto/Niv47Uy4YcqAqJv761tXAf/4UTravel?node-id=660-666&t=Z1j3hKzxN8X8xeMZ-1" target="_blank">
-          Versão Desktop
-        </a>
-      </li>
-    </ul>
-  </section>
+                    <div class="project-card">
+                        <img src="img/mobile.png" alt="Projeto 4UTravel Mobile" />
+                        <div class="project-info">
+                            <h3>4UTravel – Mobile</h3>
+                            <p>Versão mobile do projeto 4UTravel, com navegação adaptada para smartphones.</p>
+                            <div class="project-links">
+                                <a href="https://www.figma.com/proto/Niv47Uy4YcqAqJv761tXAf/4UTravel?node-id=570-464&starting-point-node-id=570%3A464&t=JBS7J4azSRSHECSy-1" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <footer>
-    <p>© 2025 – Portfólio desenvolvido por Isabel Lopes</p>
-  </footer>
+        <section id="contato" class="section contact-section">
+            <div class="container section-content">
+                <h2>Contato</h2>
+                <div class="contact-info">
+                    <p>Email: <a href="mailto:isabel04lopes@gmail.com">isabel04lopes@gmail.com</a></p>
+                    <p>Telefone: (24) 99248‑3522</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" name="nome" placeholder="Seu nome" required />
+                    <input type="email" name="email" placeholder="Seu e-mail" required />
+                    <textarea name="mensagem" placeholder="Sua mensagem" rows="6" required></textarea>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 — Desenvolvido por Isabel Lopes</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
